@@ -36,6 +36,8 @@ class HeadShotActivity : AppCompatActivity(), MaxAdListener {
             insets
         }
 
+        binding.title.text=intent.getStringExtra("title")
+
         interstitialAd = MaxInterstitialAd(constant.int_ad, this)
         interstitialAd.setListener(this)
         // Load the first ad

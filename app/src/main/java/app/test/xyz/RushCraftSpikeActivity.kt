@@ -44,6 +44,8 @@ class RushCraftSpikeActivity : AppCompatActivity(), MaxAdListener {
         // Load the first ad
         interstitialAd.loadAd()
 
+        binding.title.text=intent.getStringExtra("title")
+
         binding.checkbtn.setOnClickListener {
 
             if (interstitialAd.isReady) {

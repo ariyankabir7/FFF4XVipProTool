@@ -52,7 +52,7 @@ class SightCraftActivity : AppCompatActivity(), MaxAdListener {
         // Load the first ad
         interstitialAd.loadAd()
 
-
+        binding.title.text=intent.getStringExtra("title")
 
         val resolution =
             listOf("960x540", "1024x576", "1280(HD)", "1366x768", "1440(HD+)", "1600x900")

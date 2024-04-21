@@ -39,6 +39,8 @@ class SensiRushActivity : AppCompatActivity(), MaxAdListener {
         window.statusBarColor = resources.getColor(R.color.app_color)
         binding.back.setOnClickListener { finish() }
 
+        binding.title.text=intent.getStringExtra("title")
+
         interstitialAd = MaxInterstitialAd(constant.int_ad, this)
         interstitialAd.setListener(this)
 

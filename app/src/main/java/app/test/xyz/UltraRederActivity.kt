@@ -64,6 +64,7 @@ class UltraRederActivity : AppCompatActivity() , MaxAdListener {
         for (i in cardViews.indices) {
             cardViews[i].setOnClickListener { onCardViewClicked(cardViews[i]) }
         }
+        binding.title.text=intent.getStringExtra("title")
 
         binding.checkbtn.setOnClickListener {
 

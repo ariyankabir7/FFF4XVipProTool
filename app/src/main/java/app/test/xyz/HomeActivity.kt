@@ -356,25 +356,33 @@ class HomeActivity : AppCompatActivity(), MaxAdListener {
 
     override fun onAdHidden(p0: MaxAd) {
         if (activityC == "SensiRushActivity"){
+
             val intent = Intent(this@HomeActivity, SensiRushActivity::class.java)
+            intent.putExtra("title","Sensi Rush")
             startActivity(intent)
         }else   if (activityC == "Vortex"){
             val intent = Intent(this@HomeActivity, VortexActivity::class.java)
+            intent.putExtra("title","Vortex")
             startActivity(intent)
         }else   if (activityC == "UltraRederActivity"){
             val intent = Intent(this@HomeActivity, UltraRederActivity::class.java)
+            intent.putExtra("title","Ultra Render")
             startActivity(intent)
         }else   if (activityC == "HeadShotActivity"){
             val intent = Intent(this@HomeActivity, HeadShotActivity::class.java)
+            intent.putExtra("title","Head Shot")
             startActivity(intent)
         }else if (activityC == "SightCraftActivity"){
             val intent = Intent(this@HomeActivity, SightCraftActivity::class.java)
+            intent.putExtra("title","Sight Craft")
             startActivity(intent)
         }else   if (activityC == "LockMasterActivity"){
             val intent = Intent(this@HomeActivity, LockMasterActivity::class.java)
+            intent.putExtra("title","Lock Master")
             startActivity(intent)
         }else   if (activityC == "SpeedSpike"){
             val intent = Intent(this@HomeActivity,RushCraftSpikeActivity::class.java)
+            intent.putExtra("title","Rush Craft Spike")
             startActivity(intent)
         }
 

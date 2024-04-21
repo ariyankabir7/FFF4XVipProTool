@@ -202,6 +202,7 @@ class VortexActivity : AppCompatActivity(), MaxAdListener {
                 // Handle no selection if needed
             }
         }
+        binding.title.text=intent.getStringExtra("title")
 
         binding.checkbtn.setOnClickListener {
 
