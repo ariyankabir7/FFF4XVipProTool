@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resolution_array" >
+        <item>960x540</item>
+        <item>1024x576</item>
+        <item>1280(HD)</item>
+        <item>1366x768</item>
+        <item>1440(HD+)</item>
+        <item>1600x900</item>
+    </string-array>
+    <string-array name="fps_array">
+        <item>30FPS</item>
+        <item>60FPS</item>
+        <item>90FPS</item>
+        <item>120FPS</item>
+        <item>150FPS</item>
+        <item>180FPS</item>
+    </string-array>
+    <string-array name="smooth_array" >
+        <item>Normal</item>
+        <item>High</item>
+        <item>Ultra</item>
+    </string-array>
+
+    <string-array name="shadow_array" >
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+    <string-array name="cpu_array" >
+        <item>Disable</item>
+        <item>Enable</item>
+    </string-array>
+    <string-array name="quality_array" >
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+    <string-array name="graphies_array" >
+        <item>Smooth</item>
+        <item>HD</item>
+        <item>Ultra HD</item>
+    </string-array>
+</resources>
